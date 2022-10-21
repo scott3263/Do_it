@@ -8,6 +8,7 @@ public class Ex2_5_MaxArrayRand {
 	public static void main(String[] args) {
 		Random rand = new Random();
 		
+		@SuppressWarnings("resource")
 		Scanner stdIn = new Scanner(System.in);
 		
 		System.out.println("키의 최대값을 구합니다.");

@@ -19,7 +19,6 @@ public class Ex2_7_ArrayEqual {
 		
 	}
 	
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		
@@ -42,6 +41,8 @@ public class Ex2_7_ArrayEqual {
 			System.out.print("b[" + i + "] : ");
 			b[i] = stdIn.nextInt();
 		}
+		
+		stdIn.close();
 
 		
 		System.out.println("Array a and b " + (equals(a, b) ? "equal":" not equal"));
