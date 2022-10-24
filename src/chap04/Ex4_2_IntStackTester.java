@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ex4_2_IntStackTester {
 
-	public class IntStack{
+	static public class IntStack{
 		private int max;
 		private int ptr;
 		private int[] stk;
