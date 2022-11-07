@@ -13,6 +13,8 @@ public class Ex5_2_EuclidGCD {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+	
 		Scanner stdIn = new Scanner(System.in);
 		System.out.println("두 정수의 최대공약수 구하기");
 		
